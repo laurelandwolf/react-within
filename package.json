@@ -1,10 +1,11 @@
 {
   "name": "react-within",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "React Component for fixed/sticky elements within other components",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,16 +28,7 @@
     "within": "0.1.0"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
     "babelify": "^6.1.3"
-  },
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "stage": "0"
-        }
-      ]
-    ]
   }
 }
