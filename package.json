@@ -1,6 +1,6 @@
 {
   "name": "react-within",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "React Component for fixed/sticky elements within other components",
   "main": "dist/index.js",
   "scripts": {
