@@ -24,6 +24,9 @@
     "url": "https://github.com/laurelandwolf/react-within/issues"
   },
   "homepage": "https://github.com/laurelandwolf/react-within#readme",
+  "peerDepencies": {
+    "react": "0.14.0"
+  },
   "dependencies": {
     "within": "0.1.0"
   },
